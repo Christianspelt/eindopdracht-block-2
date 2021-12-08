@@ -1,0 +1,116 @@
+body{
+    background-image:url("../image/background.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: black;
+    justify-content: space-between;
+}
+div#menu {
+    height: 50px;
+    background-color: #525252a9;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+    border-radius: 2%;
+}
+#menu #logo img{
+    display: inline-block;
+    width: auto;
+    border-radius: 20%;
+    height: 50px;
+    
+}
+#menu #items{
+    height: 50px;
+    width: 100%;
+    border: 40px 40px 40px 40px;
+    display:flex;
+    justify-content: space-evenly;
+    
+    
+    
+}
+p.menuitem{
+    font-family: 'Roboto Condensed', sans-serif;
+   font-weight: 800;
+}
+#hmenu{
+    margin:15px auto 0px ;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    border-radius: 15%;
+    width:165px;
+    justify-content:center;
+    
+}
+    #hmenu p{
+    align-items: center;
+    text-align: center;
+}
+.hmenuwie{
+    display: flex;
+    width: max-content;
+    margin-top: 30px;
+}
+
+.textwie{
+    margin-left:40px ;
+    background-color: rgb(187, 187, 187);
+    display:flex;
+    border-radius: 1%;
+    width:900px;
+    justify-content:space-between;
+    height: 400px;
+}
+
+.menuitem:hover{
+color: white;
+}
+
+#promenu{
+    grid-gap:0px;
+    margin:15px auto auto;
+    background-color: white;
+    display:flex;
+    border-radius: 8%;
+    width:370px;
+    align-content: center;
+    text-align: center;
+}
+p#linkpro{
+    display: inline;
+    color: rgb(0, 0, 146);
+}
+
+div.code{
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+
+img.code{
+    top: 60px;
+    display: flex;
+    width: 1200px;
+    align-items: center;
+}
+
+.hmenumod{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.textmod{
+    grid-gap:0px;
+    margin:15px auto auto;
+    background-color: white;
+    display:flex;
+    border-radius: 8%;
+    width:370px;
+    align-content: center;
+    text-align: center;
+}
