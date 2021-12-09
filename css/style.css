@@ -49,6 +49,7 @@ p.menuitem{
     #hmenu p{
     align-items: center;
     text-align: center;
+    padding-left: 2px;
 }
 .hmenuwie{
     display: flex;
@@ -64,6 +65,11 @@ p.menuitem{
     width:900px;
     justify-content:space-between;
     height: 400px;
+    padding-left: 2px;
+}
+
+.textwie p{
+    padding-left: 4px;
 }
 
 .menuitem:hover{
@@ -79,10 +85,13 @@ color: white;
     width:370px;
     align-content: center;
     text-align: center;
+    padding-left: 4px;
+    align-items: center;
 }
 p#linkpro{
     display: inline;
     color: rgb(0, 0, 146);
+    padding-left: 4px;
 }
 
 div.code{
@@ -113,4 +122,10 @@ img.code{
     width:370px;
     align-content: center;
     text-align: center;
+}
+
+img.fav{
+    padding-left: 30px;
+    width: 300px;
+    align-items: center;
 }
